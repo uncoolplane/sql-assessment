@@ -7,6 +7,9 @@ You have a starting node server.
 * Create a database called assessbox and do your database work there.
 * You will need to set up and use massive.
 
+## Running Tests
+Tests can be run automatically. After setup, run `npm test` to check tests.
+
 ## Users
 
 Using the `user_create_seed.sql`
