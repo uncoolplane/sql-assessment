@@ -45,7 +45,7 @@ GOTCHA: It's important to know that express converts values passed into and acce
 * Create an endpoint at `GET '/api/vehicles'` that will query the database and get all vehicles.
 * Create an endpoint at `POST '/api/users'` that will take a user from the body and add them to the database
 * Create an endpoint at `POST '/api/vehicles'` that will take a vehicle from the body and add it to the database
-* Create an endpoint at `GET '/api/user/:userId/vehiclecount'` that will return a count of how many vehicles belong to the given user  
+* Create an endpoint at `GET '/api/user/:userId/vehiclecount'` that will return a count of how many vehicles belong to the given user
   Response should be an object with a count property ie: `{count:1}`
 * Create an endpoint at `GET '/api/user/:userId/vehicle'` that will find all vehicles that belong to the user with the provided users id
 * Create an endpoint at `GET '/api/vehicle?UserEmail=email'` that will find all vehicles that belong to the user with the provided users Email
